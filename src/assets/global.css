@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+:root {
+    --color-primary: #7843E9; /* Główny kolor */
+    --color-primary-light: rgba(120, 67, 233, 0.2); /* Jasny odcień głównego koloru */
+    --color-secondary: #111; /* Kolor nagłówków */
+    --color-text: #333; /* Główny kolor tekstu */
+    --color-text-light: #555; /* Jaśniejszy tekst */
+    --color-text-muted: #666; /* Przygaszony tekst */
+    --color-text-placeholder: #999; /* Placeholder w polach */
+    --color-background: #fafafa; /* Tło sekcji */
+    --color-background-dark: #000; /* Tło nagłówka i stopki */
+    --color-background-light: #f0f0f0; /* Jasne tło w inputach */
+    --color-border: #ebebeb; /* Kolor obramowań */
+    --color-shadow: rgba(0, 0, 0, 0.15); /* Cienie przy przyciskach */
+    --color-shadow-light: rgba(100, 100, 111, 0.2); /* Lżejszy cień */
+    --color-footer-text: #eee; /* Tekst w stopce */
+}
+  
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
