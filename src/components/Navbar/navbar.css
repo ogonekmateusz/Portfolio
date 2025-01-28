@@ -1,25 +1,9 @@
 .Navbar {
   background-color: #fff;
   font-family: "Source Sans Pro", sans-serif;
-  box-shadow: 0 2px 4px var(--color-shadow-light);
-  transform: scale(0.9);
-  opacity: 0;
-  animation: popIn 1s ease-out forwards;
-}
-
-@keyframes popIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.9) translateY(-50px);
-  }
-  50% {
-    opacity: 0.5;
-    transform: scale(1.05) translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
+  box-shadow: 0 2px 10px var(--color-shadow-light);
+  opacity: 1; 
+  z-index: 1000;
 }
 
 .navbar-toggler {
@@ -55,7 +39,7 @@
 
 @media screen and (max-width: 992px) {
   .Navbar {
-    padding: 0.5rem 0 !important;
+    padding: 0.2rem 0 !important;
   }
 
   .navbar-brand {
